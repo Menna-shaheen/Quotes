@@ -1,0 +1,62 @@
+body {
+
+  height: 90vh;
+  background-image: linear-gradient(rgba(175, 143, 111, 0.2), rgba(175, 143, 111, 0.2)), url(../images/bg.jpg);
+
+  background-position: center center;
+  background-size: cover;
+  font-family: "Ubuntu Sans", sans-serif;
+
+}
+
+.main {
+  height: 90vh;
+  transition: all 0.5s;
+
+}
+
+.inner {
+  width: 90%;
+  height: auto;
+  border-radius: 10px;
+  border: 30px solid #af8f6f;
+  transition: all 0.5s;
+  color: #543310;
+
+}
+
+.inner h1 {
+  font-size: 50px;
+  font-weight: 1000;
+
+}
+
+.inner .info {
+  margin-top: 10%;
+}
+
+.inner:hover {
+  border-color: #543310;
+}
+
+.inner .info .btn1 {
+  color: #543310;
+  background-color: #AF8F6F;
+  width: 150px;
+  height: 70px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  transition: all 0.5s;
+  font-weight: 600;
+}
+
+.inner .info .btn1:hover {
+  background-color: #543310;
+  color: #F8F4E1;
+}
+
+.inner .info p {
+  font-size: 20px;
+  color: #543310;
+  font-weight: 500;
+}
